@@ -32,7 +32,7 @@ class Solution {
         //We need long since for mid*mid+1 for int > 2^17 => 2^34 out of bounds for int
         long low = 0;
         long high = n;
-        long mid
+        long mid;
         while(low<=high)
         {
             mid = low+(high-low)/2;
